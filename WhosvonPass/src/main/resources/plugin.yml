@@ -1,0 +1,18 @@
+name: WhosvonPass
+version: 1.0
+description: Manage the Battle Pass with ease.
+author: Whosvon
+main: com.whosvon.pass.whosvonpass.WhosvonPass
+
+commands:
+  pass:
+    description: Manage the Battle Pass
+    usage: /<command> [add|reset|claim]
+    aliases: [wp]
+    permission: whosvonpass.manage
+    permission-message: You do not have permission to manage the Battle Pass.
+
+permissions:
+  whosvonpass.manage:
+    description: Allows players to manage the Battle Pass.
+    default: op

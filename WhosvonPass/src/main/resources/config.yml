@@ -1,0 +1,16 @@
+# Default configuration for WhosvonPass plugin
+
+xp-per-block: 5
+
+rewards:
+  0:
+    level: 1
+    item: # Add the itemstack here
+  1:
+    level: 2
+    item: # Add the itemstack here
+
+messages:
+  claim-success: "You have claimed your level %level% reward!"
+  no-rewards-to-claim: "You do not have any rewards to claim."
+  invalid-level: "Invalid level or reward not found."
